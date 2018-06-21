@@ -7,7 +7,7 @@ pipeline {
     }
     environment {
         MAVEN_ARGS='-v /tmp/ninja/.m2:/root/.m2'
-        DOCKER_HUB_ACCOUNT='dockerdonegal'
+        DOCKER_HUB_ACCOUNT='michaelkelly'
         APPLICATION_NAME='ninja'
         APPLICATION_TAG_VERSION='v0.0.1-rc3'
     }
